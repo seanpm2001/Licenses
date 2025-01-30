@@ -32,10 +32,11 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
-# XML source file
+# Legal XML source file
 *.xml linguist-detectable=true
 *.xml linguist-documentation=false
-*.xml linguist-language=XML
+*.xml linguist-language=LegalXML
+*.xml linguist-language=XML # Since GitHub doesn't yet recognize the former
 # Less stylesheet file
 *.less linguist-detectable=true
 *.less linguist-documentation=false
@@ -102,10 +103,9 @@
 *.editorconfig linguist-detectable=false
 *.editorconfig linguist-documentation=false
 # Plain Text document
-# Do not include, as it would become the 100% dominant language and would hide all the other languages as "other"
-*.txt linguist-detectable=false
+*.txt linguist-detectable=true
 *.txt linguist-documentation=false
-*.txt linguist-language=Plain-Text
+*.txt linguist-language=Text
 # ReStructuredText
 *.rst linguist-detectable=false
 *.rst linguist-documentation=false
@@ -171,7 +171,7 @@
 # File info
 
 # File type: gitattributes file (*.gitattributes)
-# File version: 5 (2024, Thursday, August 22nd at 03:11 pm PST)
+# File version: 6 (2025, Wednesday, January 29th at 09:33 pm PST)
 # Line count (including blank lines and compiler line): 178
 
 # End of script
